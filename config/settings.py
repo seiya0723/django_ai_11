@@ -30,7 +30,7 @@ DEBUG = True
 if DEBUG:
     ALLOWED_HOSTS = []
 else:
-    ALLOWED_HOSTS = [ "192.168.11.18" ]
+    ALLOWED_HOSTS = [ "ここにデプロイ先のIPアドレスを" ]
 
 
 # Application definition
@@ -111,9 +111,9 @@ else:
     DATABASES = { 
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'django_db',
-            'USER': 'asahina',
-            'PASSWORD':'seiya0723',
+            'NAME': '',
+            'USER': '',
+            'PASSWORD':'',
             'HOST': 'localhost',
             'PORT': '', 
         }   
